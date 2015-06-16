@@ -28,9 +28,11 @@ Once in the repl, we can load the core source file:
 And now we can call the functions from that namespace:
 
 
-```> (H/-main)
+```
+> (H/-main)
 
-> (H/fun)```
+> (H/fun)
+```
 
 
 I believe installing the `source-map-support` package from `npm` will be helpful, I'm not sure at this point what it does, but it was included in the cljs quickstart tutorial.
