@@ -4,5 +4,5 @@ Reading analysis cache for jar:file:/home/tmtwd/clojure.d/helloworld-node/cljs.j
 Compiling out/cljs/nodejs.cljs
 Compiling out/cljs/core.cljs
 Using cached cljs.core out/cljs/core.cljs
-... done. Elapsed 0.312368042 seconds
+... done. Elapsed 0.261547497 seconds
 Watching paths: /home/tmtwd/clojure.d/helloworld-node/src

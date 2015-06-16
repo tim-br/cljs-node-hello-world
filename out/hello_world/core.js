@@ -14,8 +14,8 @@ return cljs.core.println.call(null,"Hello world!");
 
 hello_world.core._main.cljs$lang$maxFixedArity = (0);
 
-hello_world.core._main.cljs$lang$applyTo = (function (seq1922){
-return hello_world.core._main.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq.call(null,seq1922));
+hello_world.core._main.cljs$lang$applyTo = (function (seq1199){
+return hello_world.core._main.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq.call(null,seq1199));
 });
 cljs.core._STAR_main_cli_fn_STAR_ = hello_world.core._main;
 
