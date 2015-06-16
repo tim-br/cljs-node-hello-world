@@ -10,7 +10,7 @@ To compile the program run this command:
 ```java -cp cljs.jar:src clojure.main node.clj ```
 
 
-which produces the javascript code:
+which produces the javascript code in this file:
 
 ```node main.js```
 
@@ -19,8 +19,18 @@ To launch the repl run:
 
 ```rlwrap java -cp cljs.jar:src clojure.main node_repl.clj```
 
+Once in the repl, we can load the core source file:
 
-And I believe installing the `source-map-support` package from npm will be helpful.
+```(require '[hello-world.core :as H])```
+
+And now we can call the functions from that namespace:
+
+```(H/-main)```
+
+```(H/fun)```
+
+
+I believe installing the `source-map-support` package from npm will be helpful.
 
 
 More detailed readme:

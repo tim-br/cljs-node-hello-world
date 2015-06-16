@@ -6,5 +6,8 @@
 (defn -main [& args]
   (println "Hello world!"))
 
+(defn fun []
+  (println "yo"))
+
 (set! *main-cli-fn* -main)
 
