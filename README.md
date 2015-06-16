@@ -1,9 +1,11 @@
 
 This is some of the code from the cljs quickstart tutorial, except it is exclusive to cljs on node :).
 
-You will need the cljs.jar which can be downloaded here: https://github.com/clojure/clojurescript/releases/download/r3308/cljs.jar
+You will need the cljs.jar which can be downloaded here:
 
-Of course, you need node and rlwrap installed :).
+ https://github.com/clojure/clojurescript/releases/download/r3308/cljs.jar
+
+Of course, you need `node` and `rlwrap` installed :).
 
 To compile the program run this command:
 
@@ -30,7 +32,7 @@ And now we can call the functions from that namespace:
 ```(H/fun)```
 
 
-I believe installing the `source-map-support` package from npm will be helpful.
+I believe installing the `source-map-support` package from `npm` will be helpful, I'm not sure at this point what it does, but it was included in the cljs quickstart tutorial.
 
 
 More detailed readme:
